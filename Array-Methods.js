@@ -85,3 +85,20 @@ const flatArr2 = myArr2.flatMap(x => x)
 console.log(flatArr2)
 
 
+
+// Array Slice -> slice(start, end-1)
+const dota = [2022, 2019, 1999, 2002, 2003, 2010]
+console.log(dota.slice(1, 8))
+
+
+
+// Array Splice -> spice(arrayIndex, from arrayIndex values to remove, values to add)
+const lol = ["lux", "malphite", "morgana", "yone", "timu", "oriana"]
+console.log("spliced response =====>>> " , lol.splice(2, 0, 'aswad'))
+console.log("actual lol array ====>>>", lol)
+
+
+// Array Spliced -> did not change the array, instead return the updated array
+console.log("spliced response =====>>> " , lol.toSpliced(2, 0, 'aswad'))
+console.log("actual lol array ====>>>", lol)
+
